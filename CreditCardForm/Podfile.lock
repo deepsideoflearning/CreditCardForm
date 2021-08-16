@@ -1,0 +1,27 @@
+PODS:
+  - CreditCardForm (0.2.0)
+  - Stripe (21.8.1):
+    - Stripe/Stripe3DS2 (= 21.8.1)
+    - StripeCore (= 21.8.1)
+  - Stripe/Stripe3DS2 (21.8.1):
+    - StripeCore (= 21.8.1)
+  - StripeCore (21.8.1)
+
+DEPENDENCIES:
+  - CreditCardForm
+  - Stripe
+
+SPEC REPOS:
+  trunk:
+    - CreditCardForm
+    - Stripe
+    - StripeCore
+
+SPEC CHECKSUMS:
+  CreditCardForm: bba4aad545236f97f2dc45ea3bed0cb57d5e0e99
+  Stripe: 57c6997c64042a3f5aedae9b76e331942f8b75d2
+  StripeCore: a6e50d58119a0c7601773b56f274db2d394dcdac
+
+PODFILE CHECKSUM: 80617a823a8490a8f7bbecf128114ffd3deb5aa1
+
+COCOAPODS: 1.10.0
